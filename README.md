@@ -10,8 +10,7 @@
 - The server doesn't need to go back to the database to validate the user 
     - It should be able to validate the token itself without calling the data store
     - It shouldn't need to use the data store itself to ascertain whether or not the user is authenticated to use the application.
-
-## JWT Structure
+### JWT Structure
 - Lives as a text file, but up of three parts
 - Things in the header and payload can be decoded by anyone; therefore, precautions must be taken about the type of info that's stored in here. Payload has three timestamps to somewhat address that problem
 - ![JWT Structure]('assets/img/032a.PNG')
