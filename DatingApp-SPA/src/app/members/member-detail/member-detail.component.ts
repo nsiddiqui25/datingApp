@@ -19,6 +19,7 @@ export class MemberDetailComponent implements OnInit {
 
   ngOnInit() {
     this.route.data.subscribe(data => {
+      // tslint:disable-next-line:no-string-literal
       this.user = data['user'];
     });
 
@@ -37,6 +38,7 @@ export class MemberDetailComponent implements OnInit {
 
   getImages() {
     const imageUrls = [];
+    // tslint:disable-next-line:prefer-for-of
     for (let i = 0; i < this.user.photos.length; i++) {
       imageUrls.push({
         small: this.user.photos[i].url,
