@@ -20,7 +20,6 @@ export class MemberEditComponent implements OnInit {
     }
   }
 
-
   // tslint:disable-next-line:max-line-length
   constructor(private route: ActivatedRoute, private alertify: AlertifyService, private userService: UserService, private authService: AuthService) { }
 

@@ -33,3 +33,6 @@
         - second part contains the paylod
         - third part is the signature
 - ![JWT Structure](assets/img/032e.PNG)
+
+## Adding Photo upload functionality to the application
+![Adding Photo upload functionality](assets/img/102a.PNG)
